@@ -4,12 +4,13 @@ def create_an_empty_array
 end
 
 def create_an_array
-  four_elements = [Earth, Water, Wind, Fire]
+  four_elements = ["Earth", "Water", "Wind", "Fire"]
   return four_elements
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array.push element
+  return array
 end
 
 def add_element_to_start_of_array(array, element)
